@@ -1,10 +1,10 @@
 <view class="container">
-  <view class="item">1</view>
-  <view class="item">2</view>
-  <view class="item">3</view>
-  <view class="item">4</view>
-  <view class="item">1</view>
-  <view class="item">2</view>
-  <view class="item">3</view>
-  <view class="item">4</view>
+  <view class="userinfo">
+    <image class="userimg" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1492070578&di=55b612d74dc2e08e8e7094d539d84d1e&imgtype=jpg&er=1&src=http%3A%2F%2Fimg4.duitang.com%2Fuploads%2Fblog%2F201403%2F01%2F20140301211549_hQHxA.jpeg"></image>
+    <view class="usertxt">
+      <view class="usertxt-nick">李老师
+      </view>
+      <view class="usertxt-admin">会员</view>
+    </view>
+  </view>
 </view>

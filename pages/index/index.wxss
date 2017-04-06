@@ -1,14 +1,32 @@
 .container{
   width: 100%;
   height:100%;
-  background-color:blueviolet;
+  background-color:#f8f8f8;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
-.item{
-  width: 100rpx;
+.userinfo{
   height: 100rpx;
-  background-color:chocolate;
-  border:3rpx solid cyan;
+  background-color: #fff;
+  margin:15rpx;
+  padding:15rpx;
+  display: flex;
+  flex-flow: row;
+}
+.userimg{
+  width: 100rpx;
+  height:100rpx;
+}
+.usertxt{
+  margin-left:15rpx;
+  display: flex;
+  flex-direction: column;
+}
+.usertxt-nick{
+  align-content: flex-start;
+  font-size: 40rpx;
+}
+.usertxt-admin{
+  align-content: flex-end;
+  font-size: 30rpx;
 }
